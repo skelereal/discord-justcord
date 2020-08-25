@@ -2,12 +2,9 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-
 const prefix = 'lol '
 
 const fs = require('fs');
-
-require("dotenv").config();
 
 client.commands = new Discord.Collection();
 
@@ -48,4 +45,4 @@ client.on('message', message => {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login('NzQ3NjQ3NjMxNTQyNzE0Mzc4.X0R7HQ.NRTNri3ZNniAqLZa673rAA95-TA');
